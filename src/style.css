@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR STYLING */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    height: 8vh;
+    color: white;
+}
+.nav>div>h1{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.Link{
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    margin-right: 0.5rem;
+}
+.home{
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.history{
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+}
+/* SearchDiv */
+.SearchDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    /* align-items: center; */
+}
+input{
+    width: 25vw;
+    margin-right: .5rem;
+    height: 25px;
+    border-radius: 5px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+}
